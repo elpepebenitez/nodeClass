@@ -4,12 +4,12 @@ const ages = [25, 23, 24, 26]
 
 // module.exports = people
 
-module.exports = {
-    people: people,
-    ages: ages
-}; 
+// module.exports = {
+//     people: people,
+//     ages: ages
+// }; 
 
 // it the key and value have the same name, we don't need to put both
-// module.exports = {
-//     people, ages
-// }; 
+module.exports = {
+    people, ages
+}; 
