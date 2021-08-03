@@ -21,6 +21,11 @@ const fs = require('fs')
 //     console.log('File was created and written!')
 // })
 
+// // You can also append data to the end!
+// fs.appendFile('./docs/newFile.txt', 'We want to append this', () => {
+//     console.log('Data was appended')
+// })
+
 // DIRECTORIES
 // fs.mkdir('./assets', (err) => {
 //     if(err){
@@ -40,7 +45,7 @@ const fs = require('fs')
 //     fs.rmdir('./assets', (err) => {
 //         if(err){
 //             console.log(err);
-//         } 
+//         }
 //         console.log('The asset folder is gone')
 //     })
 // }
