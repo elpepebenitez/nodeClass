@@ -7,7 +7,7 @@ const fs = require('fs')
 //     }
 //     // console.log(data)
 //     console.log(data.toString())
-// })
+// });
 
 // console.log('Oh hi')
 

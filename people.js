@@ -1,5 +1,5 @@
-const people = ['Tanya', 'Anesu', 'Tawanda', 'Precel']
-const ages = []
+const people = ['Tanya','Diana',  'Anesu', 'Tawanda', 'Precel', 'Tadiwanashe']
+const ages = [ 21,22, 23, 24, 25, 26]
 
 const uncommonPeople = () => {
     return people
