@@ -18,11 +18,6 @@ module.exports = {
     uncommonAges,
 }
 
-
-
-
-
-
 // Node comes with a lot of cool things!
 // const os = require('os')
 // console.log(os)
