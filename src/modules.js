@@ -1,5 +1,5 @@
 // We can use our own modules
-const people = require('../people.js');
+const people = require('../src/people.js'); 
 // const { people } = require('./people')
 
 // console.log(people)
