@@ -1,18 +1,33 @@
 {
   "name": "node",
   "version": "1.0.0",
-  "description": "",
+  "description": "### This is a repo to practice Node.js concepts.",
   "main": "files.js",
   "directories": {
-    "doc": "docs"
+    "doc": "docs",
+    "test": "test"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "node server",
+    "dev": "nodemon server"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.17.1",
     "jest": "^27.0.6"
-  }
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elpepebenitez/nodeClass.git"
+  },
+  "bugs": {
+    "url": "https://github.com/elpepebenitez/nodeClass/issues"
+  },
+  "homepage": "https://github.com/elpepebenitez/nodeClass#readme"
 }
