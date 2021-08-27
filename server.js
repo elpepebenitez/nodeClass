@@ -79,7 +79,7 @@ const server = http.createServer((req, res) => {
 	let extname = path.extname(filePath)
 
 	// Initial content type (default)
-	let contentType = 'text/html';
+	let contentType = 'text/ht÷ml';
 
 	// Check ext and set content type
 	switch(extname) {
